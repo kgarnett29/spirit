@@ -1,0 +1,132 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Nov 17 09:23:02 2021] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 16 November 2021 03:01:24
+os: Linux-3.10.0-1160.15.2.el7.x86_64 #1 SMP Wed Feb 3 15:06:38 UTC 2021
+nodename: hecs-kgarnett29
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/kaizhu/spirit
+detected binary path: /home/kaizhu/spirit/venv/bin/uwsgi
+chdir() to /home/kaizhu/spirit
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 28598)
+uwsgi socket 0 bound to TCP address 127.0.0.1:39548 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Nov 16 2020, 16:55:22)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+PEP 405 virtualenv detected: /home/kaizhu/spirit/venv/
+Set PythonHome to /home/kaizhu/spirit/venv/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x866d60
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x866d60 pid: 28597 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 28597, cores: 1)
+[pid: 28597|app: 0|req: 1/1] 123.124.217.203 () {44 vars in 842 bytes} [Wed Nov 17 01:23:07 2021] GET / => generated 2816 bytes in 412 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 2/2] 123.124.217.203 () {42 vars in 772 bytes} [Wed Nov 17 01:23:13 2021] GET / => generated 2816 bytes in 41 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 3/3] 123.124.217.203 () {42 vars in 800 bytes} [Wed Nov 17 01:23:13 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 21 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 4/4] 123.124.217.203 () {42 vars in 761 bytes} [Wed Nov 17 01:23:13 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 17 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 5/5] 123.124.217.203 () {42 vars in 754 bytes} [Wed Nov 17 01:23:13 2021] GET /favicon.ico => generated 3213 bytes in 20 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 6/6] 123.124.217.203 () {42 vars in 771 bytes} [Wed Nov 17 01:23:14 2021] GET / => generated 2816 bytes in 35 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 7/7] 123.124.217.203 () {42 vars in 800 bytes} [Wed Nov 17 01:23:14 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 20 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 8/8] 123.124.217.203 () {42 vars in 761 bytes} [Wed Nov 17 01:23:14 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 19 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 9/9] 123.124.217.203 () {42 vars in 755 bytes} [Wed Nov 17 01:23:14 2021] GET /favicon.ico => generated 3213 bytes in 19 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 10/10] 123.124.217.203 () {40 vars in 750 bytes} [Wed Nov 17 01:28:00 2021] GET / => generated 2816 bytes in 30 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 11/11] 123.124.217.203 () {38 vars in 747 bytes} [Wed Nov 17 01:28:01 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 15 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 12/12] 123.124.217.203 () {38 vars in 708 bytes} [Wed Nov 17 01:28:01 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 14 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 13/13] 123.124.217.203 () {42 vars in 772 bytes} [Wed Nov 17 01:28:01 2021] GET / => generated 2816 bytes in 29 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 14/14] 123.124.217.203 () {42 vars in 800 bytes} [Wed Nov 17 01:28:01 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 14 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 15/15] 123.124.217.203 () {42 vars in 761 bytes} [Wed Nov 17 01:28:02 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 14 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 16/16] 123.124.217.203 () {42 vars in 755 bytes} [Wed Nov 17 01:28:02 2021] GET /favicon.ico => generated 3213 bytes in 15 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 17/17] 123.124.217.203 () {42 vars in 771 bytes} [Wed Nov 17 01:28:02 2021] GET / => generated 2816 bytes in 30 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 18/18] 123.124.217.203 () {42 vars in 799 bytes} [Wed Nov 17 01:28:02 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 19 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 19/19] 123.124.217.203 () {42 vars in 760 bytes} [Wed Nov 17 01:28:02 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 18 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 20/20] 123.124.217.203 () {42 vars in 754 bytes} [Wed Nov 17 01:28:02 2021] GET /favicon.ico => generated 3213 bytes in 18 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 21/21] 123.124.217.203 () {40 vars in 750 bytes} [Wed Nov 17 01:29:06 2021] GET / => generated 2816 bytes in 38 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 22/22] 123.124.217.203 () {38 vars in 747 bytes} [Wed Nov 17 01:29:06 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 19 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 23/23] 123.124.217.203 () {40 vars in 749 bytes} [Wed Nov 17 01:31:30 2021] GET / => generated 2816 bytes in 31 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 24/24] 123.124.217.203 () {38 vars in 747 bytes} [Wed Nov 17 01:31:30 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 16 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 25/25] 123.124.217.203 () {38 vars in 708 bytes} [Wed Nov 17 01:31:30 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 14 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 26/26] 123.124.217.203 () {42 vars in 772 bytes} [Wed Nov 17 01:31:31 2021] GET / => generated 2816 bytes in 30 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 27/27] 123.124.217.203 () {42 vars in 800 bytes} [Wed Nov 17 01:31:31 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 16 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 28/28] 123.124.217.203 () {42 vars in 761 bytes} [Wed Nov 17 01:31:31 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 14 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 29/29] 123.124.217.203 () {42 vars in 755 bytes} [Wed Nov 17 01:31:31 2021] GET /favicon.ico => generated 3213 bytes in 17 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 30/30] 123.124.217.203 () {40 vars in 750 bytes} [Wed Nov 17 01:47:19 2021] GET / => generated 2816 bytes in 30 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 31/31] 123.124.217.203 () {38 vars in 747 bytes} [Wed Nov 17 01:47:19 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 16 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 32/32] 123.124.217.203 () {38 vars in 708 bytes} [Wed Nov 17 01:47:19 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 14 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 33/33] 123.124.217.203 () {38 vars in 719 bytes} [Wed Nov 17 01:49:37 2021] GET / => generated 2816 bytes in 39 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 34/34] 123.124.217.203 () {38 vars in 708 bytes} [Wed Nov 17 01:49:37 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 15 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 35/35] 123.124.217.203 () {38 vars in 747 bytes} [Wed Nov 17 01:49:37 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 17 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 36/36] 123.124.217.203 () {38 vars in 719 bytes} [Wed Nov 17 01:59:11 2021] GET / => generated 2816 bytes in 41 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 37/37] 123.124.217.203 () {38 vars in 708 bytes} [Wed Nov 17 01:59:11 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 19 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 38/38] 123.124.217.203 () {38 vars in 747 bytes} [Wed Nov 17 01:59:11 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 17 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 39/39] 123.124.217.203 () {38 vars in 702 bytes} [Wed Nov 17 01:59:11 2021] GET /favicon.ico => generated 3213 bytes in 18 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 40/40] 123.124.217.203 () {42 vars in 772 bytes} [Wed Nov 17 01:59:13 2021] GET / => generated 2816 bytes in 80 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 41/41] 123.124.217.203 () {42 vars in 800 bytes} [Wed Nov 17 01:59:13 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 19 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 42/42] 123.124.217.203 () {42 vars in 761 bytes} [Wed Nov 17 01:59:13 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 18 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 43/43] 123.124.217.203 () {42 vars in 755 bytes} [Wed Nov 17 01:59:14 2021] GET /favicon.ico => generated 3213 bytes in 18 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 44/44] 123.124.217.203 () {42 vars in 772 bytes} [Wed Nov 17 01:59:14 2021] GET / => generated 2816 bytes in 29 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 45/45] 123.124.217.203 () {42 vars in 800 bytes} [Wed Nov 17 01:59:14 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 15 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 46/46] 123.124.217.203 () {42 vars in 761 bytes} [Wed Nov 17 01:59:14 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 14 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 47/47] 123.124.217.203 () {42 vars in 755 bytes} [Wed Nov 17 01:59:15 2021] GET /favicon.ico => generated 3213 bytes in 14 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 48/48] 123.124.217.203 () {42 vars in 772 bytes} [Wed Nov 17 01:59:15 2021] GET / => generated 2816 bytes in 30 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 49/49] 123.124.217.203 () {42 vars in 800 bytes} [Wed Nov 17 01:59:15 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 15 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 50/50] 123.124.217.203 () {42 vars in 761 bytes} [Wed Nov 17 01:59:15 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 14 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 51/51] 123.124.217.203 () {42 vars in 755 bytes} [Wed Nov 17 01:59:15 2021] GET /favicon.ico => generated 3213 bytes in 15 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 52/52] 123.124.217.203 () {42 vars in 772 bytes} [Wed Nov 17 01:59:16 2021] GET / => generated 2816 bytes in 30 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 53/53] 123.124.217.203 () {42 vars in 800 bytes} [Wed Nov 17 01:59:16 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 15 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 54/54] 123.124.217.203 () {42 vars in 761 bytes} [Wed Nov 17 01:59:16 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 14 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 28597|app: 0|req: 55/55] 123.124.217.203 () {42 vars in 755 bytes} [Wed Nov 17 01:59:16 2021] GET /favicon.ico => generated 3213 bytes in 15 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Wed Nov 17 10:05:39 2021] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 16 November 2021 03:01:24
+os: Linux-3.10.0-1160.15.2.el7.x86_64 #1 SMP Wed Feb 3 15:06:38 UTC 2021
+nodename: hecs-kgarnett29
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/kaizhu/spirit
+detected binary path: /home/kaizhu/spirit/venv/bin/uwsgi
+chdir() to /home/kaizhu/spirit
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 31097)
+uwsgi socket 0 bound to TCP address 127.0.0.1:43010 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Nov 16 2020, 16:55:22)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+PEP 405 virtualenv detected: /home/kaizhu/spirit/venv/
+Set PythonHome to /home/kaizhu/spirit/venv/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1614cd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1614cd0 pid: 31096 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 31096, cores: 1)
+[pid: 31096|app: 0|req: 1/1] 123.124.217.203 () {40 vars in 839 bytes} [Wed Nov 17 02:05:44 2021] GET / => generated 2816 bytes in 401 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 31096|app: 0|req: 2/2] 123.124.217.203 () {38 vars in 797 bytes} [Wed Nov 17 02:05:44 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 17 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 31096|app: 0|req: 3/3] 123.124.217.203 () {38 vars in 759 bytes} [Wed Nov 17 02:05:44 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 15 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 31096|app: 0|req: 4/4] 123.124.217.203 () {42 vars in 862 bytes} [Wed Nov 17 02:05:47 2021] GET / => generated 2816 bytes in 44 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 31096|app: 0|req: 5/5] 123.124.217.203 () {42 vars in 851 bytes} [Wed Nov 17 02:05:47 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 23 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 31096|app: 0|req: 6/6] 123.124.217.203 () {42 vars in 812 bytes} [Wed Nov 17 02:05:47 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 23 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 31096|app: 0|req: 7/7] 123.124.217.203 () {42 vars in 820 bytes} [Wed Nov 17 02:05:47 2021] GET /favicon.ico => generated 3213 bytes in 16 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 31096|app: 0|req: 8/8] 123.124.217.203 () {40 vars in 749 bytes} [Wed Nov 17 02:06:41 2021] GET / => generated 2816 bytes in 31 msecs (HTTP/1.1 200) 8 headers in 393 bytes (1 switches on core 0)
+[pid: 31096|app: 0|req: 9/9] 123.124.217.203 () {38 vars in 746 bytes} [Wed Nov 17 02:06:41 2021] GET /static/spirit/stylesheets/styles.all.min.css => generated 3312 bytes in 17 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+[pid: 31096|app: 0|req: 10/10] 123.124.217.203 () {38 vars in 707 bytes} [Wed Nov 17 02:06:41 2021] GET /static/spirit/scripts/all.min.js => generated 3276 bytes in 14 msecs (HTTP/1.1 404) 7 headers in 217 bytes (1 switches on core 0)
+Gracefully killing worker 1 (pid: 31096)...
+[uWSGI] getting INI configuration from uwsgi_conf/uwsgi.ini
+[uWSGI] getting INI configuration from uwsgi_conf/uwsgi.ini
